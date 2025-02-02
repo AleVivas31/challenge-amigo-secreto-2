@@ -1,5 +1,8 @@
 let nombreAmigos = [];
 
+function agregarnombre (){
+    
+}
 
 
 
