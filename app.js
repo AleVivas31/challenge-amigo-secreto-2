@@ -1,7 +1,7 @@
 let nombreAmigos = [];
 
-function agregarnombre (){
-    
+function agregarAmigo() {
+
 }
 
 
