@@ -1,4 +1,4 @@
-let nombreAmigos = [];
+let nombreAmigos = []
 
 function agregarAmigo(){
     let registroNombre = document.getElementById('amigo').value;
@@ -6,12 +6,15 @@ function agregarAmigo(){
         if (registroNombre === '') {
             alert("Por favor, inserte un nombre");
             return;
-        } 
-        
-    console.log (registroNombre);
-    return;
-
+        } else {
+            nombreAmigos.push(registroNombre);
+        }   
+ 
+    console.log(registroNombre);
+    return;    
+    
 }
+
 
     
 
