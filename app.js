@@ -8,13 +8,18 @@ function agregarAmigo(){
             return;
         } else {
             nombreAmigos.push(registroNombre);
+
+            limpiarCaja();
         }   
  
     console.log(registroNombre);
-    return;    
+    return;  
+      
     
 }
-
+function limpiarCaja(){
+    document.getElementById('amigo').value = '';
+}
 
     
 
