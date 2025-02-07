@@ -42,6 +42,23 @@ function actualizarLista(){
         lista.appendChild(item);
       } 
 }
+
+function sortearAmigo() {
+
+    //Validar si la lista tiene suficiente elementos para realizar sorteo
+    if (nombreAmigos.length < 2){
+        alert("No hay amigos suficientes para poder realizar el sorteo");
+        return;
+    }
+
+    let sorteoAleatorio = Math.floor(Math.random() * nombreAmigos.length);
+
+    let amigoSecreto = nombreAmigos[sorteoAleatorio];
+
+    document.getElementById("resultado").innerHTML = `El amigo secreto es: <strong>${amigoSecreto}</strong>`;
+
+
+}
     
 
 
